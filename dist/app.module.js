@@ -15,6 +15,7 @@ var app_routing_1 = require('./app.routing');
 var app_component_1 = require('./app.component');
 var home_component_1 = require('./home/home.component');
 var project_component_1 = require('./project/project.component');
+var not_found_component_1 = require('./404/not-found.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -28,7 +29,8 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 home_component_1.HomeComponent,
-                project_component_1.ProjectComponent
+                project_component_1.ProjectComponent,
+                not_found_component_1.NotFoundComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

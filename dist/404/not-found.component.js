@@ -9,17 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var HomeComponent = (function () {
-    function HomeComponent() {
+var NotFoundComponent = (function () {
+    function NotFoundComponent() {
     }
-    HomeComponent = __decorate([
+    NotFoundComponent = __decorate([
         core_1.Component({
-            selector: 'home-page',
-            template: "ich bin frodo und so ...\n<div> <h1>Hallo Frodo</h1></div>"
+            template: "<div class=\"jumbotron text-center\">\n<h1>404 - Not Found</h1>\n<p>Das was du suchst, ist nicht hier. Versuch es mal hier <a routerLink=\"/\">home</a></p>\n"
         }), 
         __metadata('design:paramtypes', [])
-    ], HomeComponent);
-    return HomeComponent;
+    ], NotFoundComponent);
+    return NotFoundComponent;
 }());
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+exports.NotFoundComponent = NotFoundComponent;
+//# sourceMappingURL=not-found.component.js.map

@@ -5,6 +5,7 @@ import { appRouting } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectComponent } from './project/project.component';
+import { NotFoundComponent } from './404/not-found.component';
 
 @NgModule({
   imports: [ 
@@ -15,7 +16,8 @@ import { ProjectComponent } from './project/project.component';
   declarations: [ 
     AppComponent,
     HomeComponent,
-    ProjectComponent 
+    ProjectComponent,
+    NotFoundComponent 
     ],
   bootstrap: [ AppComponent ]
 })
