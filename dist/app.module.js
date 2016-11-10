@@ -15,7 +15,9 @@ var app_routing_1 = require('./app.routing');
 var app_component_1 = require('./app.component');
 var home_component_1 = require('./home/home.component');
 var project_component_1 = require('./project/project.component');
+var project_detail_component_1 = require('./project/project-detail.component');
 var not_found_component_1 = require('./404/not-found.component');
+var project_service_1 = require('./shared/services/project.service');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -30,7 +32,11 @@ var AppModule = (function () {
                 app_component_1.AppComponent,
                 home_component_1.HomeComponent,
                 project_component_1.ProjectComponent,
-                not_found_component_1.NotFoundComponent
+                not_found_component_1.NotFoundComponent,
+                project_detail_component_1.DetailProjectComponent
+            ],
+            providers: [
+                project_service_1.UserService
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 
