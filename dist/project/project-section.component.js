@@ -9,17 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var HomeComponent = (function () {
-    function HomeComponent() {
+var ProjectSectionComponent = (function () {
+    function ProjectSectionComponent() {
     }
-    HomeComponent = __decorate([
+    ProjectSectionComponent = __decorate([
         core_1.Component({
-            selector: 'home-page',
-            template: "ich bin frodo und so ...\n<div> <h1>Hallo Frodo</h1></div>\n\n\n\n\n"
+            template: "\n    <h2 class=\"text-center\"> Projecte Child Component</h2>\n    \n    <router-outlet></router-outlet>\n    "
         }), 
         __metadata('design:paramtypes', [])
-    ], HomeComponent);
-    return HomeComponent;
+    ], ProjectSectionComponent);
+    return ProjectSectionComponent;
 }());
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+exports.ProjectSectionComponent = ProjectSectionComponent;
+//# sourceMappingURL=project-section.component.js.map
